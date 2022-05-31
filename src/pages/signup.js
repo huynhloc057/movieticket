@@ -92,6 +92,7 @@ export const Signup = () => {
                         var password = data.password;
                         var mobile = data.mobile;
                         if (email === email && password === password) {
+                            alert('Login successfully!');
                             history.push({
                                 pathname: '/adminpage',
                                 state: {
@@ -123,6 +124,7 @@ export const Signup = () => {
                                 var email = data.email;
                                 var password = data.password;
                                 var mobile = data.mobile;
+                                alert('Login successfully!');
                                 history.push({
                                     pathname: '/homepage',
                                     state: {

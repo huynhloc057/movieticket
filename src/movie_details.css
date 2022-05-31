@@ -21,6 +21,11 @@
     margin-right: -150px !important;
 }
 
+.row-item-booking {
+    width: 100%;
+    padding-left: 300px;
+}
+
 .retrieve-form {
     background: rgb(246, 245, 247) none repeat scroll 0% 0%;
     width: max-content;
